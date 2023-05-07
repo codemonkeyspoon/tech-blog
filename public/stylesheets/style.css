@@ -82,12 +82,11 @@ li {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
-  background-color: #bbdbff;
+  background-color: #787f87;
 }
 
 header h1 {
@@ -151,6 +150,7 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  border: black solid 2px;
 }
 
 .comment:nth-child(odd) {
@@ -183,10 +183,18 @@ main {
   border-radius: 100px;
 }
 
+.title {
+  padding-left: 15px;
+}
+
+.meta {
+  padding-left: 15px;
+}
+
 footer {
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
-  background-color: #bbdbff;
+  background-color: #787f87;
 }
